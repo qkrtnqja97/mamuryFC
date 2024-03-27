@@ -1,0 +1,150 @@
+:root {
+    --basic_color: rgb(189, 122, 90);
+    --dark_color: rgb(169, 108, 80);
+    --darkest_color: rgb(154, 95, 68);
+    --icon_color: invert(100%) sepia(53%) saturate(5513%) hue-rotate(180deg) brightness(108%) contrast(108%);
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#scrollNav {
+    display:none;
+    z-index: 1;
+    background-color: var(--basic_color);
+}
+
+section {
+    width: 100%;
+}
+#main-img {
+    height:72vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    background-image: url(../imgs/background3.jpeg);
+    background-size: cover;
+    animation:animate_background;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+#main-img:hover {
+    animation-play-state: paused;
+}
+
+.content {
+    display: flex;
+    width:60%;
+    margin:0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#login {
+    margin-left: 1vw;
+}
+
+#phone {
+    margin-right: 1vw;
+}
+
+.content-div {
+    display: flex;
+}
+
+.fc {
+    font-size: 25px;
+    color: white;
+    opacity: 0.5;
+}
+
+.mamury {
+    font-size:40px;
+    font-weight: bold;
+    color:white;
+}
+
+#brand {
+    font-size: 70px;
+    color: transparent; -webkit-text-stroke: 1px #fff;
+}
+
+#brand span {
+    color:white;
+}
+
+
+#main-img button {
+    width:100px;
+    height:35px;
+    color: white;
+    border-radius: 10px;
+    font-weight: border;
+    font-size: 15px;
+}
+
+#yesBtn {
+    background-color: var(--basic_color);
+    border: none;
+}
+
+#noBtn {
+    background-color: rgba(0,0,0,0);
+    border: solid 1px white;
+}
+
+#home-menu {
+    height:21vh;
+    background-color: var(--basic_color);
+}
+
+#home-menu .content{
+    height:100%;
+}
+
+.menu-item {
+    box-sizing: border-box;
+    width:70%;
+    height:100%;
+    color:#fff;
+    padding-top:2vh;
+}
+
+.menu-item p {
+    line-height: 2vh;
+}
+
+.first {
+    width:33.3%;
+    height:100%;
+}
+
+.second {
+    width:33.3%;
+    height:100%;
+    background-color: var(--dark_color);
+}
+
+.third {
+    width:33.3%;
+    height:100%;
+    background-color: var(--darkest_color);
+}
+
+#match {
+    height:988px;
+    text-align: center;
+}
+
+#match .content{
+    margin-top: 10vh;
+    height:60%;
+}
+
