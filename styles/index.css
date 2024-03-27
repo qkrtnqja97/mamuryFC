@@ -148,3 +148,41 @@ section {
     height:60%;
 }
 
+
+/*커뮤니티*/
+#community .content{
+    height:988px;
+    padding-top:130px;
+    display:block;
+    line-height: 10px;
+}
+
+#community-container {
+    display: grid;
+    width:100%;
+    height:70%;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 45% 45%;
+    gap:20px;
+    row-gap: 60px;
+}
+
+.community-item {
+    background-color: rgb(245, 221, 172,0.5);
+    text-align: left;
+}
+
+.community-item img{
+    width:50%;
+    height:100%;
+    background-color: aqua;
+    margin-right:30px;
+    float:left;
+}
+
+.community-item p {
+    margin-top:30px;
+    line-height: 18px;
+    font-size: 17px;
+    opacity: 0.5;
+}
